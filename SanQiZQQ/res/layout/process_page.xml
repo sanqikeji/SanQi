@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 页面加载动画效果   -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+	<com.soufun.org.view.PageLoadingView 
+		android:id="@+id/plv_loading"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    />
+	
+	<TextView 
+		android:id="@+id/tv_load_error"
+		android:layout_marginTop="15dp" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/load_error"
+	    android:textColor="@color/loading_error_tv"
+	    android:textSize="16.0sp"
+		/> 
+	    
+	<Button 
+		android:textColor="@color/loading_error_tv" 
+		android:gravity="center" 
+		android:visibility="invisible"
+		android:id="@+id/btn_refresh" 
+		android:text="@string/refresh"
+		android:background="@drawable/button_bg" 
+		android:layout_width="80.0dip" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="15dp" 
+		android:singleLine="true" />
+</LinearLayout>

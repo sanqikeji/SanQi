@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">ZQQ</string>
+    
+    <!-- zqq的账户设置一些文本 -->
+    <string name="acc_user_num">赚钱号：</string>
+    <string name="acc_user_balance">账户余额：</string>
+    <string name="acc_change_record">兑换记录：</string>
+    <string name="acc_rec_peo">推荐人数：</string>
+    <string name="acc_rec_ear">推荐收益：</string>
+    <string name="acc_income_details">收益详情：</string>
+    
+    <string name="task_notice">任务公告</string>
+    <string name="task_btn_enter">进入做任务</string>
+    
+    <string name="acc_set_phone">手机号码(用于充值卡兑换)</string>
+    <string name="acc_edit_phone">请输入有效的手机号码</string>
+    <string name="acc_set_qq">QQ号码(用于Q币兑换)</string>
+    <string name="acc_edit_qq">请输入有效的QQ号码</string>
+    <string name="acc_set_alipay">支付宝账号(用于现金兑换)</string>
+    <string name="acc_edit_alipay">请输入有效的支付宝账号</string>
+    <string name="acc_set_nickname">昵称</string>
+    <string name="acc_edit_nickname">请输入您的个性昵称</string>
+    <string name="acc_set_email">邮箱</string>
+    <string name="acc_edit_email">请输入您的有效邮箱</string>
+    <string name="acc_notice">注意：手机号码、邮箱、QQ号码、支付宝号码请填写真实信息！</string>
+    
+    <!-- zqq更多的一些文本 -->
+    <string name="more_acc_set">账户设置</string>
+    <string name="more_acc_set_content">昵称、手机号、QQ号、支付宝</string>
+    <string name="more_soft_upd">软件更新</string>
+    <string name="more_gold_rank">金币达人榜</string>
+    <string name="more_text_rank">金币达人榜</string>
+    
+    <string name="loading">正在加载...</string>
+    <string name="load_error">抱歉，网络请求超时，加载失败！！！</string>
+    <string name="refresh">点击加载 </string>
+    
+    
+    <!-- 版本更新提示信息 -->
+    <string name="downloading">正在下载…</string>
+    <string name="new_version_update">新版本，升级？</string>
+    <string name="new_version_force_update">新版本，强制升级</string>
+	<string name="old_version">本地版本：</string>
+	<string name="new_version">最新版本：</string>
+	<string name="new_version_size">大小：</string>
+	<string name="new_version_describe">升级内容：</string>
+	<string name="dialog_upgrade">升级</string>
+	<string name="dialog_cancel">取消</string>
+	<string name="update_tip">升级提示</string>
+	<string name="forceupdate_forwait">需要强制升级，请等候下载完成</string>
+	<string name="begin_download">开始下载…</string>
+	<string name="downed_install">下载已完成，请点击安装</string>
+	<string name="install">安装</string>
+	<string name="cancel">取消安装</string>
+	
+	<string name="dialog_title">提示</string>
+	<string name="dialog_content_update">发现新版本，请升级</string>
+	
+	
+	<string name="more">查看更多</string>
+	<string name="no_message">暂无信息</string>
+	<string name="notifi_time">时间</string>
+	<string name="more_desc">为经济人量身打造的客户端，短租、日租，旅游必备客户端</string>
+	<string name="desc">搜房卡是搜房网推出的会员优惠卡，会员持卡可享受指定楼盘给予搜房网的独家购房优惠，还可以免费参加搜房看房团和团购等活动。在享受这些服务的同时，持卡人还可以根据消费金额，获取相应的搜房卡积分，兑换搜房网提供的各种精美礼品及购物券等。
+</string>
+</resources>

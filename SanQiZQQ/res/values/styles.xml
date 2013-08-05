@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 自适应宽高 -->
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 宽全屏，高自适应 -->
+    <style name="fill_width">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style> 
+    <!-- 搜房样式 -->
+    <style name="Theme.Soufun" parent="@android:style/Theme.Light">
+    <item name="android:windowBackground">@drawable/window_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <!--  -->
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- 进度对话框样式 -->
+    <style name="Theme.Light.ProcessDialog.Blue" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/toast_frame</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+    <!-- 对话框样式 -->
+    <style name="Theme.Light.Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <!-- listview样式 -->
+    <style name="list">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:dividerHeight">1.0dip</item>
+        <item name="android:divider">@drawable/divider_line</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:layout_weight">0.0</item>
+    </style>
+    <!-- 文字黑色18 -->
+    <style name="black18">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+     <!-- 文字黑色16 -->
+    <style name="black16">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字灰色14 -->
+    <style name="gray14">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字灰色16 -->
+    <style name="gray16">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字16 -->
+    <style name="text16">
+        <item name="android:textSize">16dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字蓝色18 -->
+    <style name="blue18">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 文字橙色16 -->
+    <style name="orange16">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 标题文字黑色18 -->
+    <style name="title_black18" parent="black18">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <!-- 内容文字灰色16 -->
+    <style name="content_gray16" parent="gray16">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <!-- 联系人白色16 -->
+    <style name="personwhite16">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 联系人白色18 -->
+    <style name="personwhite18">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- 分割线 -->
+    <style name="divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@drawable/divider_line</item>
+    </style>
+
+    <!-- ScrollView -->
+    <style name="scroll">
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <!-- 间距10 -->
+    <style name="margin" parent="fill_width">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- 头部不可点击 -->
+    <style name="item_top_n" parent="fill_width">
+        <item name="android:clickable">false</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/top_n</item>
+    </style>
+    <!-- 头部可点击 -->
+    <style name="item_top" parent="item_top_n">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/top</item>
+    </style>
+    <!-- 中间不可点击 -->
+    <style name="item_middle_n" parent="item_top_n">
+        <item name="android:background">@drawable/middle_n</item>
+    </style>
+    <!-- 中间可点击 -->
+    <style name="item_middle" parent="item_top">
+        <item name="android:background">@drawable/middle</item>
+    </style>
+    <!-- 底部不可点击 -->
+    <style name="item_bottom_n" parent="item_top_n">
+        <item name="android:background">@drawable/bottom_n</item>
+    </style>
+    <!-- 底部可点击 -->
+    <style name="item_bottom" parent="item_top">
+        <item name="android:background">@drawable/bottom</item>
+    </style>
+    <!-- 右侧箭头 -->
+    <style name="right_triangle">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/triangle</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+</resources>

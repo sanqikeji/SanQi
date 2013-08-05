@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/zqq_header_bar"/>
+
+    <LinearLayout
+        android:id="@+id/ll_task_notice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_notice"
+            
+            />
+        
+        <TextView 
+            android:id="@+id/tv_task_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="此任务可以进行多任务下载你可以一次下载多个任务"
+            />
+        <Button 
+            android:id="@+id/btn_enter_task"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/task_btn_enter"
+            />
+    </LinearLayout>
+    
+</RelativeLayout>

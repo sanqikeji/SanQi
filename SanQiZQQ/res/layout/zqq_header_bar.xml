@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/navigation_bg" >
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_title_back_normal"
+            android:onClick="onClick"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="关于"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_title_back_normal"
+            android:onClick="onClick"
+            android:text="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_title_notice"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@color/transparent" >
+
+        <TextView
+            android:id="@+id/tv_title_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="20dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="温玲玲我想你了。温玲玲我爱你。温玲玲我爱你。温玲玲我爱你。温玲玲我爱你。温玲玲我爱你。温玲玲我爱你。温玲玲我爱你。温玲玲我爱你。温玲玲我爱你。"
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:id="@+id/iv_title_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClick"
+            android:src="@drawable/ic_dialog" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

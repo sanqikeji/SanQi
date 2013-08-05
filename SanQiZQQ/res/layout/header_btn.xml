@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="1.0dp"
+        android:layout_height="fill_parent"
+        android:background="@color/header_divider"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="@dimen/header_height"
+        android:layout_height="fill_parent"
+        android:background="@drawable/header_btn_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:longClickable="true"
+        android:minWidth="45.0dip"
+        android:orientation="vertical"
+        android:paddingLeft="7.0dip"
+        android:paddingRight="7.0dip" >
+
+        <ImageView
+            android:id="@+id/iv_btn_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_btn_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/header_btn_text"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

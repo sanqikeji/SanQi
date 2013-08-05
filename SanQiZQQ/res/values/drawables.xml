@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="window_bg">@color/window_bg</drawable>
+    <drawable name="divider_line">@color/dividerline</drawable>
+</resources>
