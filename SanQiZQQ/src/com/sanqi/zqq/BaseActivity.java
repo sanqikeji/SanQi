@@ -54,6 +54,7 @@ public abstract class BaseActivity extends Activity implements OnClickListener {
 	 * 当前Activity是否在在最顶端
 	 */
 	protected boolean mIsFront = false;
+	
 
 	/**
 	 * 退出app的时候发送一条广播，所有子类都将finish()
